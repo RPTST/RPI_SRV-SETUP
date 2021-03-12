@@ -152,7 +152,9 @@ Plex media server
 
 Jellyfin Media server
 
-`https://hub.docker.com/r/linuxserver/jellyfin` or `https://github.com/jellyfin/jellyfin`
+    https://hub.docker.com/r/linuxserver/jellyfin 
+    or 
+    https://github.com/jellyfin/jellyfin
 
 
 Fog server (A free open-source network computer cloning and management solution)
