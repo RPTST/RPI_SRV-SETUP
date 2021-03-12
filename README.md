@@ -144,30 +144,32 @@ You should now be able to navigate to the IP address of your Raspberry Pi and po
 
 # Please see the below for additional services you can run:
 
+
 Fog server (PXE boot server)
 
 `https://github.com/RPTST/fog-server`
+
 
 LANCACHE server
 
 `https://github.com/lancachenet/docker-compose`
 
+
 Plex media server
 
 `https://github.com/plexinc/pms-docker`
+
 
 Samba share
 
 `https://github.com/DeftWork/samba`
 
+
 Jellyfin Media server
 
-`https://hub.docker.com/r/linuxserver/jellyfin`
+`https://hub.docker.com/r/linuxserver/jellyfin` or `https://github.com/jellyfin/jellyfin`
 
-or
 
-`https://github.com/jellyfin/jellyfin`
-
-homeassistant
+Homeassistant server
 
 `https://hub.docker.com/r/linuxserver/homeassistant`
