@@ -137,3 +137,14 @@ Now we will install Webmin
     
 I know it seem redundent to run the install twice just trust me when I say you need to here.
 
+Please see the below for additional services you cna run:
+
+Fog server (PXE boot server)
+`https://github.com/RPTST/fog-server`
+
+LANCACHE server
+`https://github.com/lancachenet/docker-compose`
+
+Plex media server
+`https://github.com/plexinc/pms-docker`
+
