@@ -160,3 +160,14 @@ Samba share
 
 `https://github.com/DeftWork/samba`
 
+Jellyfin Media server
+
+`https://hub.docker.com/r/linuxserver/jellyfin`
+
+or
+
+`https://github.com/jellyfin/jellyfin`
+
+homeassistant
+
+`https://hub.docker.com/r/linuxserver/homeassistant`
