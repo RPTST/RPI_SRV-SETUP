@@ -155,22 +155,23 @@ Jellyfin Media server
 `https://hub.docker.com/r/linuxserver/jellyfin` or `https://github.com/jellyfin/jellyfin`
 
 
-Fog server (PXE boot server)
+Fog server (A free open-source network computer cloning and management solution)
 
 `https://github.com/RPTST/fog-server`
 
 
-LANCACHE server
+LANCACHE monolithic and DNS server (LAN Party game caching made easy)
 
-`https://github.com/lancachenet/docker-compose`
+    https://github.com/lancachenet/docker-compose
+    https://github.com/lancachenet/lancache-dns
 
 
-Samba share
+Samba share (File Share)
 
 `https://github.com/DeftWork/samba`
 
 
-Homeassistant server
+Homeassistant server (Home automation)
 
 `https://hub.docker.com/r/linuxserver/homeassistant`
 
