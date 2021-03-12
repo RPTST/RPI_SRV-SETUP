@@ -36,6 +36,8 @@ In the /boot partition we need to create create a text file called:
 
 Now remove the SD card and put it into your raspberry pi and power it on.  This will take anywhere from 3 to 5 minutes.
 
+# Setting up Ubuntu remotely
+
 You should now be able to ssh into your raspberry pi remotely using putty or command line.
 
 Please log using the following: 
@@ -53,8 +55,6 @@ Once log into please do the following:
 Then reboot the system
 
 `sudo reboot`
-
-# Setting up Ubuntu
 
 Once log into please add the pi user
 
