@@ -173,6 +173,11 @@ Samba share (File Share)
 `https://github.com/DeftWork/samba`
 
 
+NextCloud Server (Dropbox at home replacement)
+
+`https://hub.docker.com/r/linuxserver/nextcloud`
+
+
 Homeassistant server (Home automation)
 
 `https://hub.docker.com/r/linuxserver/homeassistant`
