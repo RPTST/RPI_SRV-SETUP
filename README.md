@@ -190,16 +190,16 @@ LibraNMS (Network Monitoring System)
     https://github.com/jarischaefer/docker-librenms
 
 
-Pi-Hole
+Pi-Hole (whole home network add blocker and URL Filter)
 
 `https://hub.docker.com/r/pihole/pihole`
 
 
-AdGuardHome
+AdGuardHome (whole home network add blocker and URL Filter)
 
 `https://hub.docker.com/r/adguard/adguardhome`
 
 
-Google Coder
+Google Coder (learn coding at home)
 
 `https://github.com/hypriot/rpi-google-coder`
