@@ -7,13 +7,11 @@ Connect an SD card reader with the SD card inside. Open Raspberry Pi Imager and 
 
 # Next we setup the card for headless opteration
 
-## In the /boot partition
+Follow these two steps
 
-We need to create two files:
+## Enabling SSH
 
-### Enabling SSH
-
-Write an empty text file named 
+In the /boot partition we need to create an empty text file named 
 
 `ssh` 
 
@@ -21,7 +19,7 @@ Write an empty text file named
 
 ## Headless Wi-Fi / Ethernet
 
-To setup a Wi-Fi, create a text file called:
+In the /boot partition we need to create create a text file called:
 
 `wpa_supplicant.conf`
 
