@@ -108,9 +108,16 @@ You should now be able to navigate to the IP address of your Raspberry Pi and po
 
 # Install Webmin
 
+add webmin to the repository list.
+
 `sudo nano /etc/apt/sources.list.d/webmin.list`
 
-`deb https://download.webmin.com/download/repository sarge contrib`
+    deb https://download.webmin.com/download/repository sarge contrib
+
+Get the key for the repository.
+
+    wget https://download.webmin.com/jcameron-key.asc
+    sudo apt-key add jcameron-key.asc
 
 Press control + o and then Control + x to exit
 
@@ -121,8 +128,6 @@ Next, we will need to get the package information from the Webmin Debian reposit
 Now we will install Webmin
 
     sudo apt install apt-show-versions libauthen-pam-perl libio-pty-perl libnet-ssleay-perl perl-openssl-defaults
-    wget https://download.webmin.com/jcameron-key.asc
-    sudo apt-key add jcameron-key.asc
     sudo apt install webmin
     sudo-fix-broken install
     sudo apt install webmin
