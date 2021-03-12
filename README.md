@@ -137,6 +137,7 @@ Now we will install Webmin
     
 I know it seem redundent to run the install twice just trust me when I say you need to here.
 
+
 # Please see the below for additional services you can run:
 
 Fog server (PXE boot server)
@@ -150,4 +151,8 @@ LANCACHE server
 Plex media server
 
 `https://github.com/plexinc/pms-docker`
+
+Samba share
+
+`https://github.com/DeftWork/samba`
 
