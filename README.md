@@ -137,6 +137,10 @@ Now we will install Webmin
     
 I know it seem redundent to run the install twice just trust me when I say you need to here.
 
+You should now be able to navigate to the IP address of your Raspberry Pi and port 10000 to access Webmin. 
+
+`http://[RASPBERRY_PI_IP_ADDRESS]:10000`
+
 
 # Please see the below for additional services you can run:
 
