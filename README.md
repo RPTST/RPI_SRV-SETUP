@@ -174,6 +174,7 @@ Homeassistant server
 
 `https://hub.docker.com/r/linuxserver/homeassistant`
 
+
 LibraNMS (Network Monitoring System)
 
 `https://github.com/librenms/docker` or `https://github.com/jarischaefer/docker-librenms`
@@ -182,6 +183,11 @@ LibraNMS (Network Monitoring System)
 Pi-Hole
 
 `https://hub.docker.com/r/pihole/pihole`
+
+
+AdGuardHome
+
+`https://hub.docker.com/r/adguard/adguardhome`
 
 
 Google Coder
