@@ -147,6 +147,13 @@ PiKISS (Pi Keeping It Simple, Stupid!) are scripts (Bash) for Raspberry Pi board
 
 `curl -sSL https://git.io/JfAPE | bash`
 
+# Install Pi-Apps
+
+Pi-Apps is a GUI menu which basically is a list of pre-made apps you can install with one click for the desktop.
+
+`wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash`
+
+
 
 # Please see the below for additional services you can run:
 
