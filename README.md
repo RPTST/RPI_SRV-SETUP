@@ -141,6 +141,12 @@ You should now be able to navigate to the IP address of your Raspberry Pi and po
 
 `http://[RASPBERRY_PI_IP_ADDRESS]:10000`
 
+# piKIS setup
+
+PiKISS (Pi Keeping It Simple, Stupid!) are scripts (Bash) for Raspberry Pi boards (Raspberry OS mainly, TwisterOS and Debian derivates, all of them in 32 bits versions), which has a menu that will allow you to install some applications or configure files automatically as easy as possible.
+
+`curl -sSL https://git.io/JfAPE | bash`
+
 
 # Please see the below for additional services you can run:
 
