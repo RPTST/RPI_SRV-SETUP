@@ -153,6 +153,13 @@ Pi-Apps is a GUI menu which basically is a list of pre-made apps you can install
 
 `wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash`
 
+# Install HP printer drivers
+
+`https://sourceforge.net/projects/hplip/`
+
+or
+
+`https://developers.hp.com/hp-linux-imaging-and-printing`
 
 
 # Please see the below for additional services you can run:
