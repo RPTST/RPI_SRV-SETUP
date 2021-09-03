@@ -80,6 +80,94 @@ Inaddition please add the pi user to the sudoers so if we need to have super use
 
 Once this is done please logout and back in for changes to take effect.
 
+# Installing some terminal apps
+
+- cheat Sheet
+
+``
+
+    $curl https://cht.sh/:cht.sh | sudo tee /usr/local/bin/cht.sh
+    $chmod +x /usr/local/bin/cht.sh
+``
+   
+Usage:
+
+`$cht.sh go reverse a list`
+
+- bpytop
+
+``
+
+    $sudo apt install python3-pip
+    $sudo pip3 install psutil --upgrade
+    $pip3 install bpytop --upgrade   
+
+or
+
+    $sudo apt install bpytop
+``
+
+Usage:
+
+`$byptop`
+
+
+- Speedtest
+
+``
+
+    $sudo apt install speedtest-cli
+``
+    
+Usage:
+    `$speedtest`
+
+
+- lolcat
+
+``
+
+    $sudo apt install lolcat
+    or
+    $sudo snap install lolcat
+``
+
+Usage:
+
+    `$speedtest | lolcat`
+
+- lsdir
+
+Go to the release page at https://github.com/Peltoche/lsd/releases and very the lastest release date to download.
+
+``
+
+    $wget https://github.com/Peltoche/lsd/releases/download/0.20.1/lsd_0.20.1_arm64.deb
+    $sudo dpkg -i lsd_0.20.1_arm64.deb
+``
+
+
+Use a text editor and edit ~/.bashrc
+
+``
+
+$nano ~/.bashrc
+
+replace 
+
+alias ls='ls --color=auto'
+
+with
+
+alias ls='lsd'
+
+``
+
+Usage:
+
+ `$ls`
+
+
 # Install Docker and Compose
 
     curl -sSL https://get.docker.com | sh
