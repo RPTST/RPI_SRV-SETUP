@@ -17,7 +17,7 @@ In the /boot partition we need to create an empty text file named
 
 (no file extension)
 
-## Headless Wi-Fi / Ethernet
+## Headless Wi-Fi / Ethernet (pre 20.04)
 
 In the /boot partition we need to create create a text file called:
 
@@ -33,8 +33,41 @@ In the /boot partition we need to create create a text file called:
     psk="your_wifi_password"
     }
 
+## Headless Wi-Fi / Ethernet (post 20.04)
+Find the file named “network-config” and open it in a text editor. On Windows, you can right-click -> “open with” and select any text editor you want.
 
-Now remove the SD card and put it into your raspberry pi and power it on.  This will take anywhere from 3 to 5 minutes.
+`network-config`
+
+    version: 2
+    ethernets:
+       eth0:
+          dhcp4: true
+	  optional: true
+    wifis:
+      wlan0:
+        dhcp4: true
+	optional: true
+	access-points:
+	  "YOUR_WIFI_NAME":
+	    password: "YOUR_WIFI_PASSWORD"
+
+
+
+A few things to pay attention to:
+
+1. Make sure the indentation is exactly 2 spaces. No tab, no 4 spaces.
+2. Replace YOUR_WIFI_NAME with your actual Wi-Fi name. Keep the quotes “”.
+3. Replace YOUR_WIFI_PASSWORD with the password for the Wi-Fi. Keep the quotes “”.
+
+# Setting up ssh (per 20.04)
+In the /boot partition we need to create create an empty text file called ssh:
+
+`touch ssh`
+
+# Setting up ssh (post 20.04)
+For ssh, you should not need to do anything.
+
+* Now remove the SD card and put it into your raspberry pi and power it on.  This will take anywhere from 3 to 5 minutes.
 
 # Setting up Ubuntu remotely
 
