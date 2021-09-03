@@ -119,6 +119,7 @@ Once this is done please logout and back in for changes to take effect.
 
 ``
 
+    $sudo apt install rlwrap
     $curl https://cht.sh/:cht.sh | sudo tee /usr/local/bin/cht.sh
     $chmod +x /usr/local/bin/cht.sh
 ``
