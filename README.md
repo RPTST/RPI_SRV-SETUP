@@ -345,3 +345,33 @@ AdGuardHome (whole home network add blocker and URL Filter)
 Google Coder (learn coding at home)
 
 `https://github.com/hypriot/rpi-google-coder`
+
+
+Installing SmokePing
+
+
+    sudo apt update && sudo apt upgrade
+    sudo apt install smokeping curl libauthen-radius-perl libnet-ldap-perl libnet-dns-perl libio-socket-ssl-perl libnet-telnet-perl libsocket6-perl libio-socket-inet6-perl apache2 
+    sudo apt install apache2 sendmail
+    a2enmod cgi
+    service apache2 restart
+
+Then edit the configuration file for smokeping:
+
+sudo nano /etc/smokeping/config.d
+	
+
+    + Server
+    menu = Mon CloudFlareDNS
+    title = Mon CloudFlareDNS
+    
+    ++ Localhost
+    menu = Localhost
+    title = localhost
+    host = 127.0.0.1
+    ++ CloudFlareDNS
+    menu = CloudFlareDNS
+    title = CloudFlareDNS
+    host = 1.1.1.1
+
+Now access the webpage at `http://<your_server_ip>/smokeping/smokeping.cgi`, choose `CloudFlareDNS` from the menu.
